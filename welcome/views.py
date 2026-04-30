@@ -4,3 +4,6 @@ from django.shortcuts import render
 
 def hello(request):
     return render(request, "welcome/index.html")
+
+def contact(request):
+    return render(request,"welcome/contact.html")
