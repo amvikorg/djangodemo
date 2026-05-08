@@ -22,5 +22,7 @@ import welcome.urls
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path("",include(welcome.urls))
+    path("",include(welcome.urls)),
+    path("contact",include(welcome.urls))
+
 ]
