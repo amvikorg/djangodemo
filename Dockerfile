@@ -27,6 +27,6 @@ RUN  python manage.py collectstatic --noinput
 
 EXPOSE 8000
 
-#USER djangouser
+USER djangouser
 
 CMD [ "gunicorn", "demo2.wsgi:application", "--bind", "0.0.0.0:8000"]
