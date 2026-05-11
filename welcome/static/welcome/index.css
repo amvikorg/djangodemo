@@ -1,0 +1,10 @@
+h1 {
+  color: blue;
+  size: 24px;
+  display: inline-block;
+  border: 1px solid;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 25px;
+  align-self: center;
+}
